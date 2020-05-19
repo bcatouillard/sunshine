@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (weatherData != null) {
                 mWeatherTextView.setVisibility(View.VISIBLE);
+                showWeatherDataView();
                 /*
                  * Iterate through the array and append the Strings to the TextView. The reason why we add
                  * the "\n\n\n" after the String is to give visual separation between each String in the
